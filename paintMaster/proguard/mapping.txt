@@ -1,0 +1,1184 @@
+android.support.v4.os.ParcelableCompat -> a.a.a.a.a:
+    android.os.Parcelable$Creator newCreator(android.support.v4.os.ParcelableCompatCreatorCallbacks) -> a
+android.support.v4.os.ParcelableCompat$CompatCreator -> a.a.a.a.b:
+    android.support.v4.os.ParcelableCompatCreatorCallbacks mCallbacks -> a
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+android.support.v4.os.ParcelableCompatCreatorCallbacks -> a.a.a.a.c:
+    java.lang.Object createFromParcel(android.os.Parcel,java.lang.ClassLoader) -> a
+    java.lang.Object[] newArray(int) -> a
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2 -> a.a.a.a.d:
+    android.support.v4.os.ParcelableCompatCreatorCallbacks mCallbacks -> a
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object createFromParcel(android.os.Parcel,java.lang.ClassLoader) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+android.support.v4.view.AccessibilityDelegateCompat -> a.a.a.b.a:
+    android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateImpl IMPL -> a
+    java.lang.Object DEFAULT_DELEGATE -> b
+    java.lang.Object mBridge -> c
+    java.lang.Object getBridge() -> a
+    void sendAccessibilityEvent(android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+    void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat) -> a
+    boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(android.view.View) -> a
+    boolean performAccessibilityAction(android.view.View,int,android.os.Bundle) -> a
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateIcsImpl -> a.a.a.b.b:
+    java.lang.Object newAccessiblityDelegateDefaultImpl() -> a
+    java.lang.Object newAccessiblityDelegateBridge(android.support.v4.view.AccessibilityDelegateCompat) -> a
+    boolean dispatchPopulateAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void onInitializeAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onInitializeAccessibilityNodeInfo(java.lang.Object,android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat) -> a
+    void onPopulateAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    boolean onRequestSendAccessibilityEvent(java.lang.Object,android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void sendAccessibilityEvent(java.lang.Object,android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateImpl -> a.a.a.b.c:
+    java.lang.Object newAccessiblityDelegateDefaultImpl() -> a
+    java.lang.Object newAccessiblityDelegateBridge(android.support.v4.view.AccessibilityDelegateCompat) -> a
+    boolean dispatchPopulateAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void onInitializeAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onInitializeAccessibilityNodeInfo(java.lang.Object,android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat) -> a
+    void onPopulateAccessibilityEvent(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    boolean onRequestSendAccessibilityEvent(java.lang.Object,android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void sendAccessibilityEvent(java.lang.Object,android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(java.lang.Object,android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+    android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(java.lang.Object,android.view.View) -> a
+    boolean performAccessibilityAction(java.lang.Object,android.view.View,int,android.os.Bundle) -> a
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl -> a.a.a.b.d:
+    java.lang.Object newAccessiblityDelegateBridge(android.support.v4.view.AccessibilityDelegateCompat) -> a
+    android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(java.lang.Object,android.view.View) -> a
+    boolean performAccessibilityAction(java.lang.Object,android.view.View,int,android.os.Bundle) -> a
+android.support.v4.view.AccessibilityDelegateCompatIcs -> a.a.a.b.e:
+    android.support.v4.view.AccessibilityDelegateCompat val$compat -> a
+    boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onInitializeAccessibilityNodeInfo(android.view.View,java.lang.Object) -> a
+    void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void sendAccessibilityEvent(android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+android.support.v4.view.AccessibilityDelegateCompatIcs$1 -> a.a.a.b.f:
+    android.support.v4.view.AccessibilityDelegateCompatIcs val$bridge$6be2295a -> a
+    boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> dispatchPopulateAccessibilityEvent
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> onInitializeAccessibilityEvent
+    void onInitializeAccessibilityNodeInfo(android.view.View,android.view.accessibility.AccessibilityNodeInfo) -> onInitializeAccessibilityNodeInfo
+    void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> onPopulateAccessibilityEvent
+    boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> onRequestSendAccessibilityEvent
+    void sendAccessibilityEvent(android.view.View,int) -> sendAccessibilityEvent
+    void sendAccessibilityEventUnchecked(android.view.View,android.view.accessibility.AccessibilityEvent) -> sendAccessibilityEventUnchecked
+android.support.v4.view.AccessibilityDelegateCompatJellyBean$1 -> a.a.a.b.g:
+    android.support.v4.view.AccessibilityDelegateCompatJellyBean$AccessibilityDelegateBridgeJellyBean val$bridge -> a
+    boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> dispatchPopulateAccessibilityEvent
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> onInitializeAccessibilityEvent
+    void onInitializeAccessibilityNodeInfo(android.view.View,android.view.accessibility.AccessibilityNodeInfo) -> onInitializeAccessibilityNodeInfo
+    void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> onPopulateAccessibilityEvent
+    boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> onRequestSendAccessibilityEvent
+    void sendAccessibilityEvent(android.view.View,int) -> sendAccessibilityEvent
+    void sendAccessibilityEventUnchecked(android.view.View,android.view.accessibility.AccessibilityEvent) -> sendAccessibilityEventUnchecked
+    android.view.accessibility.AccessibilityNodeProvider getAccessibilityNodeProvider(android.view.View) -> getAccessibilityNodeProvider
+    boolean performAccessibilityAction(android.view.View,int,android.os.Bundle) -> performAccessibilityAction
+android.support.v4.view.AccessibilityDelegateCompatJellyBean$AccessibilityDelegateBridgeJellyBean -> a.a.a.b.h:
+    android.support.v4.view.AccessibilityDelegateCompat val$compat -> a
+    boolean dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> b
+    void onInitializeAccessibilityNodeInfo(android.view.View,java.lang.Object) -> a
+    void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> c
+    boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent) -> a
+    void sendAccessibilityEvent(android.view.View,int) -> a
+    void sendAccessibilityEventUnchecked(android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+    java.lang.Object getAccessibilityNodeProvider(android.view.View) -> a
+    boolean performAccessibilityAction(android.view.View,int,android.os.Bundle) -> a
+android.support.v4.view.KeyEventCompat -> a.a.a.b.i:
+    android.support.v4.view.KeyEventCompat$KeyEventVersionImpl IMPL -> a
+    boolean hasModifiers(android.view.KeyEvent,int) -> a
+    boolean hasNoModifiers(android.view.KeyEvent) -> a
+android.support.v4.view.KeyEventCompat$BaseKeyEventVersionImpl -> a.a.a.b.j:
+    int metaStateFilterDirectionalModifiers(int,int,int,int,int) -> a
+    int normalizeMetaState(int) -> b
+    boolean metaStateHasModifiers(int,int) -> a
+    boolean metaStateHasNoModifiers(int) -> a
+android.support.v4.view.KeyEventCompat$HoneycombKeyEventVersionImpl -> a.a.a.b.k:
+    boolean metaStateHasModifiers(int,int) -> a
+    boolean metaStateHasNoModifiers(int) -> a
+android.support.v4.view.KeyEventCompat$KeyEventVersionImpl -> a.a.a.b.l:
+    boolean metaStateHasModifiers(int,int) -> a
+    boolean metaStateHasNoModifiers(int) -> a
+android.support.v4.view.MotionEventCompat -> a.a.a.b.m:
+    android.support.v4.view.MotionEventCompat$MotionEventVersionImpl IMPL -> a
+    int getActionIndex(android.view.MotionEvent) -> a
+    int findPointerIndex(android.view.MotionEvent,int) -> a
+    int getPointerId(android.view.MotionEvent,int) -> b
+    float getX(android.view.MotionEvent,int) -> c
+    float getY(android.view.MotionEvent,int) -> d
+android.support.v4.view.MotionEventCompat$BaseMotionEventVersionImpl -> a.a.a.b.n:
+    int findPointerIndex(android.view.MotionEvent,int) -> a
+    int getPointerId(android.view.MotionEvent,int) -> b
+    float getX(android.view.MotionEvent,int) -> c
+    float getY(android.view.MotionEvent,int) -> d
+android.support.v4.view.MotionEventCompat$EclairMotionEventVersionImpl -> a.a.a.b.o:
+    int findPointerIndex(android.view.MotionEvent,int) -> a
+    int getPointerId(android.view.MotionEvent,int) -> b
+    float getX(android.view.MotionEvent,int) -> c
+    float getY(android.view.MotionEvent,int) -> d
+android.support.v4.view.MotionEventCompat$MotionEventVersionImpl -> a.a.a.b.p:
+    int findPointerIndex(android.view.MotionEvent,int) -> a
+    int getPointerId(android.view.MotionEvent,int) -> b
+    float getX(android.view.MotionEvent,int) -> c
+    float getY(android.view.MotionEvent,int) -> d
+android.support.v4.view.PagerAdapter -> a.a.a.b.q:
+    android.database.DataSetObservable mObservable -> a
+    int getCount() -> a
+    java.lang.Object instantiateItem(android.view.ViewGroup,int) -> a
+    void destroyItem(android.view.ViewGroup,int,java.lang.Object) -> a
+    void setPrimaryItem(android.view.ViewGroup,int,java.lang.Object) -> b
+    boolean isViewFromObject(android.view.View,java.lang.Object) -> a
+    void registerDataSetObserver(android.database.DataSetObserver) -> a
+    void unregisterDataSetObserver(android.database.DataSetObserver) -> b
+android.support.v4.view.VelocityTrackerCompat -> a.a.a.b.r:
+    android.support.v4.view.VelocityTrackerCompat$VelocityTrackerVersionImpl IMPL -> a
+    float getXVelocity(android.view.VelocityTracker,int) -> a
+android.support.v4.view.VelocityTrackerCompat$BaseVelocityTrackerVersionImpl -> a.a.a.b.s:
+    float getXVelocity(android.view.VelocityTracker,int) -> a
+android.support.v4.view.VelocityTrackerCompat$HoneycombVelocityTrackerVersionImpl -> a.a.a.b.t:
+    float getXVelocity(android.view.VelocityTracker,int) -> a
+android.support.v4.view.VelocityTrackerCompat$VelocityTrackerVersionImpl -> a.a.a.b.u:
+    float getXVelocity(android.view.VelocityTracker,int) -> a
+android.support.v4.view.ViewCompat -> a.a.a.b.v:
+    android.support.v4.view.ViewCompat$ViewCompatImpl IMPL -> a
+    boolean canScrollHorizontally(android.view.View,int) -> a
+    int getOverScrollMode(android.view.View) -> a
+    void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat) -> a
+    void postInvalidateOnAnimation(android.view.View) -> b
+    void postOnAnimation(android.view.View,java.lang.Runnable) -> a
+    int getImportantForAccessibility(android.view.View) -> c
+    void setImportantForAccessibility(android.view.View,int) -> b
+android.support.v4.view.ViewCompat$GBViewCompatImpl -> a.a.a.b.w:
+    int getOverScrollMode(android.view.View) -> a
+android.support.v4.view.ViewCompat$HCViewCompatImpl -> a.a.a.b.x:
+    long getFrameTime() -> a
+android.support.v4.view.ViewCompat$ICSViewCompatImpl -> a.a.a.b.y:
+    boolean canScrollHorizontally(android.view.View,int) -> a
+    void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat) -> a
+android.support.v4.view.ViewCompat$JBViewCompatImpl -> a.a.a.b.z:
+    void postInvalidateOnAnimation(android.view.View) -> b
+    void postOnAnimation(android.view.View,java.lang.Runnable) -> a
+    int getImportantForAccessibility(android.view.View) -> c
+    void setImportantForAccessibility(android.view.View,int) -> b
+android.support.v4.view.ViewCompat$JbMr1ViewCompatImpl -> a.a.a.b.A:
+android.support.v4.view.ViewCompat$ViewCompatImpl -> a.a.a.b.B:
+    boolean canScrollHorizontally(android.view.View,int) -> a
+    int getOverScrollMode(android.view.View) -> a
+    void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat) -> a
+    void postInvalidateOnAnimation(android.view.View) -> b
+    void postOnAnimation(android.view.View,java.lang.Runnable) -> a
+    int getImportantForAccessibility(android.view.View) -> c
+    void setImportantForAccessibility(android.view.View,int) -> b
+    long getFrameTime() -> a
+android.support.v4.view.ViewConfigurationCompat -> a.a.a.b.C:
+    android.support.v4.view.ViewConfigurationCompat$ViewConfigurationVersionImpl IMPL -> a
+    int getScaledPagingTouchSlop(android.view.ViewConfiguration) -> a
+android.support.v4.view.ViewConfigurationCompat$BaseViewConfigurationVersionImpl -> a.a.a.b.D:
+    int getScaledPagingTouchSlop(android.view.ViewConfiguration) -> a
+android.support.v4.view.ViewConfigurationCompat$FroyoViewConfigurationVersionImpl -> a.a.a.b.E:
+    int getScaledPagingTouchSlop(android.view.ViewConfiguration) -> a
+android.support.v4.view.ViewConfigurationCompat$ViewConfigurationVersionImpl -> a.a.a.b.F:
+    int getScaledPagingTouchSlop(android.view.ViewConfiguration) -> a
+android.support.v4.view.ViewPager -> a.a.a.b.G:
+    int[] LAYOUT_ATTRS -> a
+    java.util.Comparator COMPARATOR -> b
+    android.view.animation.Interpolator sInterpolator -> c
+    java.util.ArrayList mItems -> d
+    android.support.v4.view.ViewPager$ItemInfo mTempItem -> e
+    android.graphics.Rect mTempRect -> f
+    android.support.v4.view.PagerAdapter mAdapter -> g
+    int mCurItem -> h
+    int mRestoredCurItem -> i
+    android.os.Parcelable mRestoredAdapterState -> j
+    java.lang.ClassLoader mRestoredClassLoader -> k
+    android.widget.Scroller mScroller -> l
+    android.support.v4.view.ViewPager$PagerObserver mObserver -> m
+    int mTopPageBounds -> n
+    int mBottomPageBounds -> o
+    float mFirstOffset -> p
+    float mLastOffset -> q
+    int mChildHeightMeasureSpec -> r
+    boolean mInLayout -> s
+    boolean mScrollingCacheEnabled -> t
+    boolean mPopulatePending -> u
+    int mOffscreenPageLimit -> v
+    boolean mIsBeingDragged -> w
+    boolean mIsUnableToDrag -> x
+    int mDefaultGutterSize -> y
+    int mGutterSize -> z
+    int mTouchSlop -> A
+    float mInitialMotionX -> B
+    float mLastMotionX -> C
+    float mLastMotionY -> D
+    int mActivePointerId -> E
+    android.view.VelocityTracker mVelocityTracker -> F
+    int mMinimumVelocity -> G
+    int mMaximumVelocity -> H
+    int mFlingDistance -> I
+    int mCloseEnough -> J
+    int mSeenPositionMin -> K
+    int mSeenPositionMax -> L
+    android.support.v4.widget.EdgeEffectCompat mLeftEdge -> M
+    android.support.v4.widget.EdgeEffectCompat mRightEdge -> N
+    boolean mFirstLayout -> O
+    boolean mCalledSuper -> P
+    int mDecorChildCount -> Q
+    java.util.ArrayList mDrawingOrderedChildren -> R
+    android.support.v4.view.ViewPager$ViewPositionComparator sPositionComparator -> S
+    java.lang.Runnable mEndScrollRunnable -> T
+    int mScrollState -> U
+    void initViewPager() -> d
+    void onDetachedFromWindow() -> onDetachedFromWindow
+    void setScrollState(int) -> b
+    void setAdapter(android.support.v4.view.PagerAdapter) -> a
+    void setCurrentItem(int) -> a
+    void setCurrentItem(int,boolean) -> a
+    void setCurrentItemInternal(int,boolean,boolean) -> a
+    void setCurrentItemInternal(int,boolean,boolean,int) -> a
+    void scrollToItem(int,boolean,int,boolean) -> a
+    int getChildDrawingOrder(int,int) -> getChildDrawingOrder
+    boolean verifyDrawable(android.graphics.drawable.Drawable) -> verifyDrawable
+    void drawableStateChanged() -> drawableStateChanged
+    android.support.v4.view.ViewPager$ItemInfo addNewItem(int,int) -> a
+    void dataSetChanged() -> a
+    void populate() -> b
+    void populate(int) -> c
+    android.os.Parcelable onSaveInstanceState() -> onSaveInstanceState
+    void onRestoreInstanceState(android.os.Parcelable) -> onRestoreInstanceState
+    void addView(android.view.View,int,android.view.ViewGroup$LayoutParams) -> addView
+    android.support.v4.view.ViewPager$ItemInfo infoForChild(android.view.View) -> a
+    android.support.v4.view.ViewPager$ItemInfo infoForPosition(int) -> d
+    void onAttachedToWindow() -> onAttachedToWindow
+    void onMeasure(int,int) -> onMeasure
+    void onSizeChanged(int,int,int,int) -> onSizeChanged
+    void onLayout(boolean,int,int,int,int) -> onLayout
+    void computeScroll() -> computeScroll
+    boolean pageScrolled(int) -> e
+    void onPageScrolled(int,float,int) -> a
+    void completeScroll(boolean) -> a
+    boolean onInterceptTouchEvent(android.view.MotionEvent) -> onInterceptTouchEvent
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    boolean performDrag(float) -> a
+    android.support.v4.view.ViewPager$ItemInfo infoForCurrentScrollPosition() -> e
+    void draw(android.graphics.Canvas) -> draw
+    void onDraw(android.graphics.Canvas) -> onDraw
+    void onSecondaryPointerUp(android.view.MotionEvent) -> a
+    void endDrag() -> f
+    void setScrollingCacheEnabled(boolean) -> b
+    boolean canScroll(android.view.View,boolean,int,int,int) -> a
+    boolean dispatchKeyEvent(android.view.KeyEvent) -> dispatchKeyEvent
+    boolean arrowScroll(int) -> f
+    android.graphics.Rect getChildRectInPagerCoordinates(android.graphics.Rect,android.view.View) -> a
+    boolean pageLeft() -> g
+    boolean pageRight() -> h
+    void addFocusables(java.util.ArrayList,int,int) -> addFocusables
+    void addTouchables(java.util.ArrayList) -> addTouchables
+    boolean onRequestFocusInDescendants(int,android.graphics.Rect) -> onRequestFocusInDescendants
+    boolean dispatchPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent) -> dispatchPopulateAccessibilityEvent
+    android.view.ViewGroup$LayoutParams generateDefaultLayoutParams() -> generateDefaultLayoutParams
+    android.view.ViewGroup$LayoutParams generateLayoutParams(android.view.ViewGroup$LayoutParams) -> generateLayoutParams
+    boolean checkLayoutParams(android.view.ViewGroup$LayoutParams) -> checkLayoutParams
+    android.view.ViewGroup$LayoutParams generateLayoutParams(android.util.AttributeSet) -> generateLayoutParams
+    void access$000(android.support.v4.view.ViewPager,int) -> a
+    android.support.v4.view.PagerAdapter access$200(android.support.v4.view.ViewPager) -> a
+    int access$300(android.support.v4.view.ViewPager) -> b
+    int[] access$400() -> c
+android.support.v4.view.ViewPager$1 -> a.a.a.b.H:
+    int compare(java.lang.Object,java.lang.Object) -> compare
+android.support.v4.view.ViewPager$2 -> a.a.a.b.I:
+    float getInterpolation(float) -> getInterpolation
+android.support.v4.view.ViewPager$3 -> a.a.a.b.J:
+    android.support.v4.view.ViewPager this$0 -> a
+    void run() -> run
+android.support.v4.view.ViewPager$Decor -> a.a.a.b.K:
+android.support.v4.view.ViewPager$ItemInfo -> a.a.a.b.L:
+    java.lang.Object object -> a
+    int position -> b
+    boolean scrolling -> c
+    float widthFactor -> d
+    float offset -> e
+android.support.v4.view.ViewPager$LayoutParams -> a.a.a.b.M:
+    boolean isDecor -> a
+    int gravity -> b
+    float widthFactor -> c
+    boolean needsMeasure -> d
+    int position -> e
+    int childIndex -> f
+android.support.v4.view.ViewPager$MyAccessibilityDelegate -> a.a.a.b.N:
+    android.support.v4.view.ViewPager this$0 -> a
+    void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent) -> d
+    void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat) -> a
+    boolean performAccessibilityAction(android.view.View,int,android.os.Bundle) -> a
+android.support.v4.view.ViewPager$PagerObserver -> a.a.a.b.O:
+    android.support.v4.view.ViewPager this$0 -> a
+    void onChanged() -> onChanged
+    void onInvalidated() -> onInvalidated
+android.support.v4.view.ViewPager$SavedState -> a.a.a.b.P:
+    int position -> a
+    android.os.Parcelable adapterState -> b
+    java.lang.ClassLoader loader -> c
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+    java.lang.String toString() -> toString
+android.support.v4.view.ViewPager$SavedState$1 -> a.a.a.b.Q:
+    java.lang.Object[] newArray(int) -> a
+    java.lang.Object createFromParcel(android.os.Parcel,java.lang.ClassLoader) -> a
+android.support.v4.view.ViewPager$ViewPositionComparator -> a.a.a.b.R:
+    int compare(java.lang.Object,java.lang.Object) -> compare
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat -> a.a.a.b.a.a:
+    android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoImpl IMPL -> a
+    java.lang.Object mInfo -> b
+    java.lang.Object getInfo() -> a
+    void addAction(int) -> a
+    void setScrollable(boolean) -> a
+    void setClassName(java.lang.CharSequence) -> a
+    int hashCode() -> hashCode
+    boolean equals(java.lang.Object) -> equals
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoIcsImpl -> a.a.a.b.a.b:
+    void addAction(java.lang.Object,int) -> a
+    void setClassName(java.lang.Object,java.lang.CharSequence) -> a
+    void setScrollable(java.lang.Object,boolean) -> a
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoImpl -> a.a.a.b.a.c:
+    void addAction(java.lang.Object,int) -> a
+    void setScrollable(java.lang.Object,boolean) -> a
+    void setClassName(java.lang.Object,java.lang.CharSequence) -> a
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoJellybeanImpl -> a.a.a.b.a.d:
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs -> a.a.a.b.a.e:
+    java.lang.Object newAccessibilityNodeProviderBridge(android.support.v4.view.accessibility.AccessibilityNodeProviderCompat) -> a
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat -> a.a.a.b.a.f:
+    android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs IMPL$5ccd855f -> a
+    java.lang.Object mProvider -> b
+    java.lang.Object getProvider() -> a
+    android.support.v4.view.accessibility.AccessibilityNodeInfoCompat createAccessibilityNodeInfo$f3a5639() -> b
+    boolean performAction$5985f823() -> c
+    java.util.List findAccessibilityNodeInfosByText$2393931d() -> d
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderJellyBeanImpl -> a.a.a.b.a.g:
+    java.lang.Object newAccessibilityNodeProviderBridge(android.support.v4.view.accessibility.AccessibilityNodeProviderCompat) -> a
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$1 -> a.a.a.b.a.h:
+    android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$AccessibilityNodeInfoBridge val$bridge -> a
+    android.view.accessibility.AccessibilityNodeInfo createAccessibilityNodeInfo(int) -> createAccessibilityNodeInfo
+    java.util.List findAccessibilityNodeInfosByText(java.lang.String,int) -> findAccessibilityNodeInfosByText
+    boolean performAction(int,int,android.os.Bundle) -> performAction
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$AccessibilityNodeInfoBridge -> a.a.a.b.a.i:
+    android.support.v4.view.accessibility.AccessibilityNodeProviderCompat val$compat -> a
+    java.lang.Object createAccessibilityNodeInfo(int) -> a
+    boolean performAction(int,int,android.os.Bundle) -> a
+    java.util.List findAccessibilityNodeInfosByText(java.lang.String,int) -> a
+android.support.v4.widget.EdgeEffectCompat -> a.a.a.c.a:
+    java.lang.Object mEdgeEffect -> a
+    android.support.v4.widget.EdgeEffectCompat$EdgeEffectImpl IMPL -> b
+    void setSize(int,int) -> a
+    boolean isFinished() -> a
+    void finish() -> b
+    boolean onPull(float) -> a
+    boolean onRelease() -> c
+    boolean draw(android.graphics.Canvas) -> a
+android.support.v4.widget.EdgeEffectCompat$BaseEdgeEffectImpl -> a.a.a.c.b:
+    java.lang.Object newEdgeEffect(android.content.Context) -> a
+    void setSize(java.lang.Object,int,int) -> a
+    boolean isFinished(java.lang.Object) -> a
+    void finish(java.lang.Object) -> b
+    boolean onPull(java.lang.Object,float) -> a
+    boolean onRelease(java.lang.Object) -> c
+    boolean draw(java.lang.Object,android.graphics.Canvas) -> a
+android.support.v4.widget.EdgeEffectCompat$EdgeEffectIcsImpl -> a.a.a.c.c:
+    java.lang.Object newEdgeEffect(android.content.Context) -> a
+    void setSize(java.lang.Object,int,int) -> a
+    boolean isFinished(java.lang.Object) -> a
+    void finish(java.lang.Object) -> b
+    boolean onPull(java.lang.Object,float) -> a
+    boolean onRelease(java.lang.Object) -> c
+    boolean draw(java.lang.Object,android.graphics.Canvas) -> a
+android.support.v4.widget.EdgeEffectCompat$EdgeEffectImpl -> a.a.a.c.d:
+    java.lang.Object newEdgeEffect(android.content.Context) -> a
+    void setSize(java.lang.Object,int,int) -> a
+    boolean isFinished(java.lang.Object) -> a
+    void finish(java.lang.Object) -> b
+    boolean onPull(java.lang.Object,float) -> a
+    boolean onRelease(java.lang.Object) -> c
+    boolean draw(java.lang.Object,android.graphics.Canvas) -> a
+at.technikum.mti.fancycoverflow.FancyCoverFlow -> at.technikum.mti.fancycoverflow.FancyCoverFlow:
+    float reflectionRatio -> a
+    int reflectionGap -> b
+    boolean reflectionEnabled -> c
+    float unselectedAlpha -> d
+    android.graphics.Camera transformationCamera -> e
+    int maxRotation -> f
+    float unselectedScale -> g
+    float scaleDownGravity -> h
+    int actionDistance -> i
+    float unselectedSaturation -> j
+    void initialize() -> d
+    void applyXmlAttributes(android.util.AttributeSet) -> a
+    float getReflectionRatio() -> a
+    int getReflectionGap() -> b
+    boolean isReflectionEnabled() -> c
+    void setAdapter(android.widget.SpinnerAdapter) -> setAdapter
+    void setMaxRotation(int) -> a
+    void setUnselectedScale(float) -> a
+    void setScaleDownGravity(float) -> b
+    void setActionDistance(int) -> b
+    void setUnselectedAlpha(float) -> setUnselectedAlpha
+    void setUnselectedSaturation(float) -> c
+    boolean getChildStaticTransformation(android.view.View,android.view.animation.Transformation) -> getChildStaticTransformation
+at.technikum.mti.fancycoverflow.FancyCoverFlow$LayoutParams -> at.technikum.mti.fancycoverflow.a:
+at.technikum.mti.fancycoverflow.FancyCoverFlowAdapter -> at.technikum.mti.fancycoverflow.b:
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    android.view.View getCoverFlowItem(int,android.view.View,android.view.ViewGroup) -> a
+at.technikum.mti.fancycoverflow.FancyCoverFlowItemWrapper -> at.technikum.mti.fancycoverflow.c:
+    float saturation -> a
+    boolean isReflectionEnabled -> b
+    float imageReflectionRatio -> c
+    int reflectionGap -> d
+    float originalScaledownFactor -> e
+    android.graphics.ColorMatrix colorMatrix -> f
+    android.graphics.Paint paint -> g
+    android.graphics.Bitmap wrappedViewBitmap -> h
+    android.graphics.Canvas wrappedViewDrawingCanvas -> i
+    void setReflectionEnabled(boolean) -> a
+    void setReflectionRatio(float) -> a
+    void setReflectionGap(int) -> a
+    void setSaturation(float) -> b
+    void onMeasure(int,int) -> onMeasure
+    void onLayout(boolean,int,int,int,int) -> onLayout
+    void dispatchDraw(android.graphics.Canvas) -> dispatchDraw
+    void remeasureChildren() -> a
+at.technikum.mti.fancycoverflow.R$styleable -> at.technikum.mti.fancycoverflow.d:
+    int[] FancyCoverFlow -> a
+com.aiiistudent.paintmaster.CameraActivity -> com.aiiistudent.paintmaster.CameraActivity:
+    android.graphics.Matrix matrix -> g
+    android.graphics.Bitmap imgHelp -> a
+    java.lang.Boolean flag -> b
+    android.graphics.Bitmap mBitmap -> h
+    android.graphics.Paint mBitmapPaint -> i
+    android.graphics.Paint mBitmapHelp -> j
+    int w1 -> c
+    int h1 -> d
+    android.view.Menu menu -> k
+    java.lang.Integer mYear -> l
+    java.lang.Integer mMonth -> m
+    java.lang.Integer mDay -> n
+    java.lang.Integer mHour -> o
+    java.lang.Integer mMinute -> p
+    java.lang.Integer mSecond -> q
+    java.lang.String mTime -> r
+    com.aiiistudent.paintmaster.CameraActivity$MyView v -> s
+    int tempProgress -> e
+    int sizeTempProgress -> f
+    boolean pen -> t
+    boolean shadow -> u
+    int shadowLayerColor -> v
+    android.graphics.Paint mPaint -> w
+    android.graphics.MaskFilter mEmboss -> x
+    android.graphics.MaskFilter mBlur -> y
+    long lastClickTime -> z
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onPrepareOptionsMenu(android.view.Menu) -> onPrepareOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onColorChanged(int) -> a
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void ShowDialog() -> b
+    java.io.File getTempFile$4019f9fa() -> c
+    void onBackPressed() -> onBackPressed
+    void Camera() -> a
+    void onDestroy() -> onDestroy
+    void setContentView(android.view.View) -> setContentView
+    void access$1(com.aiiistudent.paintmaster.CameraActivity,android.graphics.Paint) -> a
+    android.graphics.Paint access$2(com.aiiistudent.paintmaster.CameraActivity) -> a
+    void access$3(com.aiiistudent.paintmaster.CameraActivity,android.graphics.Paint) -> b
+    android.graphics.Paint access$4(com.aiiistudent.paintmaster.CameraActivity) -> b
+    android.graphics.Bitmap access$5(com.aiiistudent.paintmaster.CameraActivity) -> c
+    void access$6(com.aiiistudent.paintmaster.CameraActivity,android.graphics.Bitmap) -> a
+    android.graphics.Paint access$7(com.aiiistudent.paintmaster.CameraActivity) -> d
+com.aiiistudent.paintmaster.CameraActivity$1 -> com.aiiistudent.paintmaster.a:
+    com.aiiistudent.paintmaster.CameraActivity this$0 -> a
+    void run() -> run
+com.aiiistudent.paintmaster.CameraActivity$2 -> com.aiiistudent.paintmaster.b:
+    com.aiiistudent.paintmaster.CameraActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.aiiistudent.paintmaster.CameraActivity$3 -> com.aiiistudent.paintmaster.c:
+    com.aiiistudent.paintmaster.CameraActivity this$0 -> a
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+com.aiiistudent.paintmaster.CameraActivity$4 -> com.aiiistudent.paintmaster.d:
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.aiiistudent.paintmaster.CameraActivity$5 -> com.aiiistudent.paintmaster.e:
+    com.aiiistudent.paintmaster.CameraActivity this$0 -> a
+    android.widget.TextView val$txtSeek -> b
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+com.aiiistudent.paintmaster.CameraActivity$6 -> com.aiiistudent.paintmaster.f:
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.aiiistudent.paintmaster.CameraActivity$MyView -> com.aiiistudent.paintmaster.g:
+    android.graphics.Canvas mCanvas -> a
+    android.graphics.Path mPath -> b
+    float mX -> c
+    float mY -> d
+    com.aiiistudent.paintmaster.CameraActivity this$0 -> e
+    void onSizeChanged(int,int,int,int) -> onSizeChanged
+    void onDraw(android.graphics.Canvas) -> onDraw
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+com.aiiistudent.paintmaster.CustomViewGroup -> com.aiiistudent.paintmaster.h:
+    android.widget.TextView textView -> a
+    android.widget.ImageView imageView -> b
+    android.widget.TextView getTextView() -> a
+    android.widget.ImageView getImageView() -> b
+com.aiiistudent.paintmaster.FancyCoverFlowSampleAdapter -> com.aiiistudent.paintmaster.i:
+    int width -> a
+    int height -> b
+    int imageWidth -> c
+    int imageHeight -> d
+    int[] images -> e
+    int getCount() -> getCount
+    java.lang.Integer getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getCoverFlowItem(int,android.view.View,android.view.ViewGroup) -> a
+    java.lang.Object getItem(int) -> getItem
+com.aiiistudent.paintmaster.FreeActivity -> com.aiiistudent.paintmaster.FreeActivity:
+    int[] background -> a
+    android.graphics.Bitmap imgSrc -> b
+    android.graphics.Bitmap img -> c
+    java.lang.Boolean flag -> d
+    android.graphics.Bitmap mBitmap -> i
+    android.graphics.Paint mBitmapPaint -> j
+    android.graphics.Paint mBitmapBackground -> k
+    int w1 -> e
+    int h1 -> f
+    android.view.Menu menu -> l
+    java.lang.Integer mYear -> m
+    java.lang.Integer mMonth -> n
+    java.lang.Integer mDay -> o
+    java.lang.Integer mHour -> p
+    java.lang.Integer mMinute -> q
+    java.lang.Integer mSecond -> r
+    java.lang.String mTime -> s
+    com.aiiistudent.paintmaster.FreeActivity$MyView v -> t
+    int tempProgress -> g
+    int sizeTempProgress -> h
+    android.widget.Gallery gallery -> u
+    boolean pen -> v
+    boolean shadow -> w
+    int shadowLayerColor -> x
+    android.graphics.Paint mPaint -> y
+    android.graphics.MaskFilter mEmboss -> z
+    android.graphics.MaskFilter mBlur -> A
+    long lastClickTime -> B
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onMenuItemSelected(int,android.view.MenuItem) -> onMenuItemSelected
+    boolean onPrepareOptionsMenu(android.view.Menu) -> onPrepareOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onColorChanged(int) -> a
+    void onBackPressed() -> onBackPressed
+    void onDestroy() -> onDestroy
+    void setContentView(android.view.View) -> setContentView
+    void access$1(com.aiiistudent.paintmaster.FreeActivity,android.graphics.Paint) -> a
+    android.graphics.Paint access$2(com.aiiistudent.paintmaster.FreeActivity) -> a
+    void access$3(com.aiiistudent.paintmaster.FreeActivity,android.graphics.Paint) -> b
+    android.graphics.Bitmap access$4(com.aiiistudent.paintmaster.FreeActivity) -> b
+    void access$5(com.aiiistudent.paintmaster.FreeActivity,android.graphics.Bitmap) -> a
+    android.graphics.Paint access$6(com.aiiistudent.paintmaster.FreeActivity) -> c
+    android.graphics.Paint access$7(com.aiiistudent.paintmaster.FreeActivity) -> d
+com.aiiistudent.paintmaster.FreeActivity$1 -> com.aiiistudent.paintmaster.j:
+    com.aiiistudent.paintmaster.FreeActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.aiiistudent.paintmaster.FreeActivity$2 -> com.aiiistudent.paintmaster.k:
+    com.aiiistudent.paintmaster.FreeActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.aiiistudent.paintmaster.FreeActivity$3 -> com.aiiistudent.paintmaster.l:
+    com.aiiistudent.paintmaster.FreeActivity this$0 -> a
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+com.aiiistudent.paintmaster.FreeActivity$4 -> com.aiiistudent.paintmaster.m:
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.aiiistudent.paintmaster.FreeActivity$5 -> com.aiiistudent.paintmaster.n:
+    com.aiiistudent.paintmaster.FreeActivity this$0 -> a
+    android.widget.TextView val$txtSeek -> b
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+com.aiiistudent.paintmaster.FreeActivity$6 -> com.aiiistudent.paintmaster.o:
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.aiiistudent.paintmaster.FreeActivity$MyView -> com.aiiistudent.paintmaster.p:
+    android.graphics.Canvas mCanvas -> a
+    android.graphics.Path mPath -> b
+    float mX -> c
+    float mY -> d
+    com.aiiistudent.paintmaster.FreeActivity this$0 -> e
+    void onSizeChanged(int,int,int,int) -> onSizeChanged
+    void onDraw(android.graphics.Canvas) -> onDraw
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+com.aiiistudent.paintmaster.GalleryFileActivity -> com.aiiistudent.paintmaster.GalleryFileActivity:
+    int filePosition -> d
+    java.util.ArrayList items -> e
+    java.util.ArrayList itemsDefault -> f
+    ru.truba.touchgallery.GalleryWidget.FilePagerAdapter pagerAdapter -> g
+    android.view.Menu myMenu -> a
+    android.widget.ShareActionProvider actionProvider -> b
+    java.lang.Boolean menuCreatedFlag -> c
+    ru.truba.touchgallery.GalleryWidget.GalleryViewPager mViewPager -> h
+    void onCreate(android.os.Bundle) -> onCreate
+    void copy(java.io.InputStream,java.io.File) -> a
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    android.content.Intent createShareIntent(java.lang.String) -> a
+    void onDestroy() -> onDestroy
+    void access$0(int) -> a
+    java.util.ArrayList access$1(com.aiiistudent.paintmaster.GalleryFileActivity) -> a
+    int access$2() -> a
+    android.content.Intent access$3(com.aiiistudent.paintmaster.GalleryFileActivity,java.lang.String) -> a
+    java.util.ArrayList access$4(com.aiiistudent.paintmaster.GalleryFileActivity) -> b
+    void access$5(com.aiiistudent.paintmaster.GalleryFileActivity,ru.truba.touchgallery.GalleryWidget.GalleryViewPager) -> a
+    void access$6(com.aiiistudent.paintmaster.GalleryFileActivity,ru.truba.touchgallery.GalleryWidget.FilePagerAdapter) -> a
+    ru.truba.touchgallery.GalleryWidget.GalleryViewPager access$7(com.aiiistudent.paintmaster.GalleryFileActivity) -> c
+    ru.truba.touchgallery.GalleryWidget.FilePagerAdapter access$8(com.aiiistudent.paintmaster.GalleryFileActivity) -> d
+com.aiiistudent.paintmaster.GalleryFileActivity$1 -> com.aiiistudent.paintmaster.q:
+    com.aiiistudent.paintmaster.GalleryFileActivity this$0 -> a
+    void onItemChange(int) -> a
+com.aiiistudent.paintmaster.GalleryFileActivity$2 -> com.aiiistudent.paintmaster.r:
+    void onItemChange(int) -> a
+com.aiiistudent.paintmaster.GalleryFileActivity$3 -> com.aiiistudent.paintmaster.s:
+    void onItemChange(int) -> a
+com.aiiistudent.paintmaster.GalleryFileActivity$4 -> com.aiiistudent.paintmaster.t:
+    com.aiiistudent.paintmaster.GalleryFileActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.aiiistudent.paintmaster.GraphicsActivity -> com.aiiistudent.paintmaster.u:
+    void onCreate(android.os.Bundle) -> onCreate
+    void setContentView(android.view.View) -> setContentView
+com.aiiistudent.paintmaster.ImageAdapter -> com.aiiistudent.paintmaster.v:
+    android.content.Context myContext -> a
+    int[] myImageId -> b
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.aiiistudent.paintmaster.IndexActivity -> com.aiiistudent.paintmaster.IndexActivity:
+    at.technikum.mti.fancycoverflow.FancyCoverFlow fancyCoverFlow -> b
+    android.content.Intent it -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onBackPressed() -> onBackPressed
+com.aiiistudent.paintmaster.IndexActivity$1 -> com.aiiistudent.paintmaster.w:
+    com.aiiistudent.paintmaster.IndexActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.aiiistudent.paintmaster.IndexActivity$2 -> com.aiiistudent.paintmaster.x:
+    com.aiiistudent.paintmaster.IndexActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.aiiistudent.paintmaster.MainActivity -> com.aiiistudent.paintmaster.MainActivity:
+    int[] qusetion -> j
+    android.graphics.Bitmap imgQuestionSrc -> a
+    android.graphics.Bitmap imgQuestion -> b
+    java.lang.Boolean flag -> c
+    android.graphics.Bitmap mBitmap -> k
+    android.graphics.Paint mBitmapPaint -> l
+    android.os.CountDownTimer countDownTimer -> m
+    java.lang.String str -> d
+    int w1 -> e
+    int h1 -> f
+    android.view.Menu menu -> g
+    com.aiiistudent.paintmaster.MainActivity$MyView v -> n
+    boolean pen -> o
+    boolean shadow -> p
+    int shadowLayerColor -> q
+    int sizeTempProgress -> h
+    java.lang.Integer mYear -> r
+    java.lang.Integer mMonth -> s
+    java.lang.Integer mDay -> t
+    java.lang.Integer mHour -> u
+    java.lang.Integer mMinute -> v
+    java.lang.Integer mSecond -> w
+    java.lang.String mTime -> x
+    long countDownTime -> y
+    long remainTime -> i
+    long InitialcountDownTime -> z
+    android.graphics.Paint mPaint -> A
+    android.graphics.MaskFilter mEmboss -> B
+    android.graphics.MaskFilter mBlur -> C
+    long lastClickTime -> D
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onPrepareOptionsMenu(android.view.Menu) -> onPrepareOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onStop() -> onStop
+    void onResume() -> onResume
+    void countDownTimer() -> a
+    void onColorChanged(int) -> a
+    void onBackPressed() -> onBackPressed
+    void onDestroy() -> onDestroy
+    void setContentView(android.view.View) -> setContentView
+    void access$1(com.aiiistudent.paintmaster.MainActivity,android.graphics.Paint) -> a
+    android.graphics.Paint access$2(com.aiiistudent.paintmaster.MainActivity) -> a
+    android.graphics.Bitmap access$3(com.aiiistudent.paintmaster.MainActivity) -> b
+    void access$4(com.aiiistudent.paintmaster.MainActivity,android.graphics.Bitmap) -> a
+    android.graphics.Paint access$5(com.aiiistudent.paintmaster.MainActivity) -> c
+com.aiiistudent.paintmaster.MainActivity$1 -> com.aiiistudent.paintmaster.y:
+    com.aiiistudent.paintmaster.MainActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.aiiistudent.paintmaster.MainActivity$2 -> com.aiiistudent.paintmaster.z:
+    com.aiiistudent.paintmaster.MainActivity this$0 -> a
+    void onFinish() -> onFinish
+    void onTick(long) -> onTick
+com.aiiistudent.paintmaster.MainActivity$3 -> com.aiiistudent.paintmaster.A:
+    com.aiiistudent.paintmaster.MainActivity this$0 -> a
+    android.widget.TextView val$txtSeek -> b
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+com.aiiistudent.paintmaster.MainActivity$4 -> com.aiiistudent.paintmaster.B:
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.aiiistudent.paintmaster.MainActivity$MyView -> com.aiiistudent.paintmaster.C:
+    android.graphics.Canvas mCanvas -> a
+    android.graphics.Path mPath -> b
+    float mX -> c
+    float mY -> d
+    com.aiiistudent.paintmaster.MainActivity this$0 -> e
+    void onSizeChanged(int,int,int,int) -> onSizeChanged
+    void onDraw(android.graphics.Canvas) -> onDraw
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+com.aiiistudent.paintmaster.PickActivity -> com.aiiistudent.paintmaster.PickActivity:
+    android.graphics.Matrix matrix -> a
+    android.graphics.Matrix matrixHint -> b
+    android.graphics.Bitmap imgQuestionSrc -> c
+    android.graphics.Bitmap imgQuestion -> d
+    android.graphics.Bitmap imgHelp -> e
+    java.lang.Boolean openHint -> f
+    android.graphics.Bitmap spinImgQuestion -> g
+    android.graphics.Bitmap spinImgHelp -> h
+    int count -> i
+    java.lang.Boolean flag -> j
+    android.graphics.Bitmap mBitmap -> o
+    android.graphics.Paint mBitmapPaint -> p
+    android.graphics.Paint mBitmapHelp -> q
+    int w1 -> k
+    int h1 -> l
+    android.view.Menu menu -> r
+    android.view.MenuItem hintItem -> s
+    java.lang.Integer mYear -> t
+    java.lang.Integer mMonth -> u
+    java.lang.Integer mDay -> v
+    java.lang.Integer mHour -> w
+    java.lang.Integer mMinute -> x
+    java.lang.Integer mSecond -> y
+    java.lang.String mTime -> z
+    com.aiiistudent.paintmaster.PickActivity$MyView v -> A
+    int tempProgress -> m
+    int sizeTempProgress -> n
+    boolean pen -> B
+    boolean shadow -> C
+    int shadowLayerColor -> D
+    float px -> E
+    float py -> F
+    android.graphics.Paint mPaint -> G
+    android.graphics.MaskFilter mEmboss -> H
+    android.graphics.MaskFilter mBlur -> I
+    long lastClickTime -> J
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onPrepareOptionsMenu(android.view.Menu) -> onPrepareOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void onColorChanged(int) -> a
+    void onBackPressed() -> onBackPressed
+    void onDestroy() -> onDestroy
+    void setContentView(android.view.View) -> setContentView
+    void access$1(com.aiiistudent.paintmaster.PickActivity,android.graphics.Paint) -> a
+    android.graphics.Paint access$2(com.aiiistudent.paintmaster.PickActivity) -> a
+    void access$3(com.aiiistudent.paintmaster.PickActivity,android.graphics.Paint) -> b
+    android.graphics.Bitmap access$4(com.aiiistudent.paintmaster.PickActivity) -> b
+    void access$5(com.aiiistudent.paintmaster.PickActivity,android.graphics.Bitmap) -> a
+    android.graphics.Paint access$6(com.aiiistudent.paintmaster.PickActivity) -> c
+    android.graphics.Paint access$7(com.aiiistudent.paintmaster.PickActivity) -> d
+com.aiiistudent.paintmaster.PickActivity$1 -> com.aiiistudent.paintmaster.D:
+    com.aiiistudent.paintmaster.PickActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.aiiistudent.paintmaster.PickActivity$2 -> com.aiiistudent.paintmaster.E:
+    com.aiiistudent.paintmaster.PickActivity this$0 -> a
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+com.aiiistudent.paintmaster.PickActivity$3 -> com.aiiistudent.paintmaster.F:
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.aiiistudent.paintmaster.PickActivity$4 -> com.aiiistudent.paintmaster.G:
+    com.aiiistudent.paintmaster.PickActivity this$0 -> a
+    android.widget.TextView val$txtSeek -> b
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+com.aiiistudent.paintmaster.PickActivity$5 -> com.aiiistudent.paintmaster.H:
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.aiiistudent.paintmaster.PickActivity$MyView -> com.aiiistudent.paintmaster.I:
+    android.graphics.Canvas mCanvas -> a
+    android.graphics.Path mPath -> b
+    float mX -> c
+    float mY -> d
+    com.aiiistudent.paintmaster.PickActivity this$0 -> e
+    void onSizeChanged(int,int,int,int) -> onSizeChanged
+    void onDraw(android.graphics.Canvas) -> onDraw
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+com.aiiistudent.paintmaster.PracticeActivity -> com.aiiistudent.paintmaster.PracticeActivity:
+    int[] qusetion -> a
+    android.graphics.Bitmap imgQuestionSrc -> b
+    android.graphics.Bitmap imgQuestion -> c
+    android.graphics.Bitmap imgHelp -> d
+    java.lang.Boolean openHint -> e
+    java.lang.Boolean flag -> f
+    android.graphics.Bitmap mBitmap -> k
+    android.graphics.Paint mBitmapPaint -> l
+    android.graphics.Paint mBitmapHelp -> m
+    int w1 -> g
+    int h1 -> h
+    android.view.Menu menu -> n
+    android.view.MenuItem hintItem -> o
+    java.lang.Integer mYear -> p
+    java.lang.Integer mMonth -> q
+    java.lang.Integer mDay -> r
+    java.lang.Integer mHour -> s
+    java.lang.Integer mMinute -> t
+    java.lang.Integer mSecond -> u
+    java.lang.String mTime -> v
+    com.aiiistudent.paintmaster.PracticeActivity$MyView v -> w
+    android.widget.Gallery gallery -> x
+    boolean pen -> y
+    boolean shadow -> z
+    int shadowLayerColor -> A
+    int tempProgress -> i
+    int sizeTempProgress -> j
+    android.graphics.Paint mPaint -> B
+    android.graphics.MaskFilter mEmboss -> C
+    android.graphics.MaskFilter mBlur -> D
+    long lastClickTime -> E
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onPrepareOptionsMenu(android.view.Menu) -> onPrepareOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onColorChanged(int) -> a
+    void onBackPressed() -> onBackPressed
+    void onDestroy() -> onDestroy
+    void setContentView(android.view.View) -> setContentView
+    void access$1(com.aiiistudent.paintmaster.PracticeActivity,android.graphics.Paint) -> a
+    android.graphics.Paint access$2(com.aiiistudent.paintmaster.PracticeActivity) -> a
+    void access$3(com.aiiistudent.paintmaster.PracticeActivity,android.graphics.Paint) -> b
+    android.graphics.Bitmap access$4(com.aiiistudent.paintmaster.PracticeActivity) -> b
+    void access$5(com.aiiistudent.paintmaster.PracticeActivity,android.graphics.Bitmap) -> a
+    android.graphics.Paint access$6(com.aiiistudent.paintmaster.PracticeActivity) -> c
+    android.graphics.Paint access$7(com.aiiistudent.paintmaster.PracticeActivity) -> d
+com.aiiistudent.paintmaster.PracticeActivity$1 -> com.aiiistudent.paintmaster.J:
+    com.aiiistudent.paintmaster.PracticeActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.aiiistudent.paintmaster.PracticeActivity$2 -> com.aiiistudent.paintmaster.K:
+    com.aiiistudent.paintmaster.PracticeActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.aiiistudent.paintmaster.PracticeActivity$3 -> com.aiiistudent.paintmaster.L:
+    com.aiiistudent.paintmaster.PracticeActivity this$0 -> a
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+com.aiiistudent.paintmaster.PracticeActivity$4 -> com.aiiistudent.paintmaster.M:
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.aiiistudent.paintmaster.PracticeActivity$5 -> com.aiiistudent.paintmaster.N:
+    com.aiiistudent.paintmaster.PracticeActivity this$0 -> a
+    android.widget.TextView val$txtSeek -> b
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+com.aiiistudent.paintmaster.PracticeActivity$6 -> com.aiiistudent.paintmaster.O:
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.aiiistudent.paintmaster.PracticeActivity$MyView -> com.aiiistudent.paintmaster.P:
+    android.graphics.Canvas mCanvas -> a
+    android.graphics.Path mPath -> b
+    float mX -> c
+    float mY -> d
+    com.aiiistudent.paintmaster.PracticeActivity this$0 -> e
+    void onSizeChanged(int,int,int,int) -> onSizeChanged
+    void onDraw(android.graphics.Canvas) -> onDraw
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+com.aiiistudent.paintmaster.backgroundAdapter -> com.aiiistudent.paintmaster.Q:
+    android.content.Context myContext -> a
+    int[] myImageId -> b
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+net.margaritov.preference.colorpicker.AlphaPatternDrawable -> net.margaritov.preference.colorpicker.a:
+    int mRectangleSize -> a
+    android.graphics.Paint mPaint -> b
+    android.graphics.Paint mPaintWhite -> c
+    android.graphics.Paint mPaintGray -> d
+    int numRectanglesHorizontal -> e
+    int numRectanglesVertical -> f
+    android.graphics.Bitmap mBitmap -> g
+    void draw(android.graphics.Canvas) -> draw
+    int getOpacity() -> getOpacity
+    void setAlpha(int) -> setAlpha
+    void setColorFilter(android.graphics.ColorFilter) -> setColorFilter
+    void onBoundsChange(android.graphics.Rect) -> onBoundsChange
+net.margaritov.preference.colorpicker.ColorPickerDialog -> net.margaritov.preference.colorpicker.b:
+    net.margaritov.preference.colorpicker.ColorPickerView mColorPicker -> a
+    net.margaritov.preference.colorpicker.ColorPickerPanelView mOldColor -> b
+    net.margaritov.preference.colorpicker.ColorPickerPanelView mNewColor -> c
+    android.widget.EditText mHexVal -> d
+    boolean mHexValueEnabled -> e
+    android.content.res.ColorStateList mHexDefaultTextColor -> f
+    net.margaritov.preference.colorpicker.ColorPickerDialog$OnColorChangedListener mListener -> g
+    void init(int) -> b
+    void onColorChanged(int) -> a
+    void setHexValueEnabled(boolean) -> a
+    void updateHexLengthFilter() -> a
+    void updateHexValue(int) -> c
+    void setAlphaSliderVisible(boolean) -> b
+    void setOnColorChangedListener(net.margaritov.preference.colorpicker.ColorPickerDialog$OnColorChangedListener) -> a
+    void onClick(android.view.View) -> onClick
+    android.os.Bundle onSaveInstanceState() -> onSaveInstanceState
+    void onRestoreInstanceState(android.os.Bundle) -> onRestoreInstanceState
+    android.widget.EditText access$0(net.margaritov.preference.colorpicker.ColorPickerDialog) -> a
+    net.margaritov.preference.colorpicker.ColorPickerView access$1(net.margaritov.preference.colorpicker.ColorPickerDialog) -> b
+    android.content.res.ColorStateList access$2(net.margaritov.preference.colorpicker.ColorPickerDialog) -> c
+net.margaritov.preference.colorpicker.ColorPickerDialog$1 -> net.margaritov.preference.colorpicker.c:
+    net.margaritov.preference.colorpicker.ColorPickerDialog this$0 -> a
+    boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
+net.margaritov.preference.colorpicker.ColorPickerDialog$OnColorChangedListener -> net.margaritov.preference.colorpicker.d:
+    void onColorChanged(int) -> a
+net.margaritov.preference.colorpicker.ColorPickerPanelView -> net.margaritov.preference.colorpicker.ColorPickerPanelView:
+    float mDensity -> a
+    int mBorderColor -> b
+    int mColor -> c
+    android.graphics.Paint mBorderPaint -> d
+    android.graphics.Paint mColorPaint -> e
+    android.graphics.RectF mDrawingRect -> f
+    android.graphics.RectF mColorRect -> g
+    net.margaritov.preference.colorpicker.AlphaPatternDrawable mAlphaPattern -> h
+    void onDraw(android.graphics.Canvas) -> onDraw
+    void onMeasure(int,int) -> onMeasure
+    void onSizeChanged(int,int,int,int) -> onSizeChanged
+    void setColor(int) -> a
+    int getColor() -> a
+net.margaritov.preference.colorpicker.ColorPickerPreference -> net.margaritov.preference.colorpicker.ColorPickerPreference:
+    android.view.View mView -> a
+    net.margaritov.preference.colorpicker.ColorPickerDialog mDialog -> b
+    int mValue -> c
+    float mDensity -> d
+    boolean mAlphaSliderEnabled -> e
+    boolean mHexValueEnabled -> f
+    java.lang.Object onGetDefaultValue(android.content.res.TypedArray,int) -> onGetDefaultValue
+    void onSetInitialValue(boolean,java.lang.Object) -> onSetInitialValue
+    void init$643f623b(android.util.AttributeSet) -> a
+    void onBindView(android.view.View) -> onBindView
+    void setPreviewColor() -> a
+    android.graphics.Bitmap getPreviewBitmap() -> b
+    void onColorChanged(int) -> a
+    boolean onPreferenceClick(android.preference.Preference) -> onPreferenceClick
+    void showDialog(android.os.Bundle) -> a
+    java.lang.String convertToARGB(int) -> b
+    java.lang.String convertToRGB(int) -> c
+    int convertToColorInt(java.lang.String) -> a
+    android.os.Parcelable onSaveInstanceState() -> onSaveInstanceState
+    void onRestoreInstanceState(android.os.Parcelable) -> onRestoreInstanceState
+net.margaritov.preference.colorpicker.ColorPickerPreference$SavedState -> net.margaritov.preference.colorpicker.e:
+    android.os.Bundle dialogBundle -> a
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+net.margaritov.preference.colorpicker.ColorPickerPreference$SavedState$1 -> net.margaritov.preference.colorpicker.f:
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+net.margaritov.preference.colorpicker.ColorPickerView -> net.margaritov.preference.colorpicker.ColorPickerView:
+    float HUE_PANEL_WIDTH -> a
+    float ALPHA_PANEL_HEIGHT -> b
+    float PANEL_SPACING -> c
+    float PALETTE_CIRCLE_TRACKER_RADIUS -> d
+    float RECTANGLE_TRACKER_OFFSET -> e
+    float mDensity -> f
+    net.margaritov.preference.colorpicker.ColorPickerDialog$OnColorChangedListener mListener$14005624 -> g
+    android.graphics.Paint mSatValPaint -> h
+    android.graphics.Paint mSatValTrackerPaint -> i
+    android.graphics.Paint mHuePaint -> j
+    android.graphics.Paint mHueTrackerPaint -> k
+    android.graphics.Paint mAlphaPaint -> l
+    android.graphics.Paint mAlphaTextPaint -> m
+    android.graphics.Paint mBorderPaint -> n
+    android.graphics.Shader mValShader -> o
+    android.graphics.Shader mSatShader -> p
+    android.graphics.Shader mHueShader -> q
+    android.graphics.Shader mAlphaShader -> r
+    int mAlpha -> s
+    float mHue -> t
+    float mSat -> u
+    float mVal -> v
+    java.lang.String mAlphaSliderText -> w
+    int mSliderTrackerColor -> x
+    int mBorderColor -> y
+    boolean mShowAlphaPanel -> z
+    int mLastTouchedPanel -> A
+    float mDrawingOffset -> B
+    android.graphics.RectF mDrawingRect -> C
+    android.graphics.RectF mSatValRect -> D
+    android.graphics.RectF mHueRect -> E
+    android.graphics.RectF mAlphaRect -> F
+    net.margaritov.preference.colorpicker.AlphaPatternDrawable mAlphaPattern -> G
+    android.graphics.Point mStartTouchPoint -> H
+    int[] buildHueColorArray() -> d
+    void onDraw(android.graphics.Canvas) -> onDraw
+    boolean onTrackballEvent(android.view.MotionEvent) -> onTrackballEvent
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    boolean moveTrackersIfNeeded(android.view.MotionEvent) -> a
+    void onMeasure(int,int) -> onMeasure
+    int getPrefferedHeight() -> e
+    void onSizeChanged(int,int,int,int) -> onSizeChanged
+    void setOnColorChangedListener$24de7af(net.margaritov.preference.colorpicker.ColorPickerDialog$OnColorChangedListener) -> a
+    int getColor() -> a
+    void setColor(int,boolean) -> a
+    float getDrawingOffset() -> b
+    void setAlphaSliderVisible(boolean) -> a
+    boolean getAlphaSliderVisible() -> c
+ru.truba.touchgallery.GalleryWidget.BasePagerAdapter -> ru.truba.touchgallery.GalleryWidget.a:
+    java.util.List mResources -> a
+    android.content.Context mContext -> b
+    int mCurrentPosition -> c
+    ru.truba.touchgallery.GalleryWidget.BasePagerAdapter$OnItemChangeListener mOnItemChangeListener -> d
+    void setPrimaryItem(android.view.ViewGroup,int,java.lang.Object) -> b
+    void destroyItem(android.view.ViewGroup,int,java.lang.Object) -> a
+    int getCount() -> a
+    boolean isViewFromObject(android.view.View,java.lang.Object) -> a
+    void setOnItemChangeListener(ru.truba.touchgallery.GalleryWidget.BasePagerAdapter$OnItemChangeListener) -> a
+ru.truba.touchgallery.GalleryWidget.BasePagerAdapter$OnItemChangeListener -> ru.truba.touchgallery.GalleryWidget.b:
+    void onItemChange(int) -> a
+ru.truba.touchgallery.GalleryWidget.FilePagerAdapter -> ru.truba.touchgallery.GalleryWidget.c:
+    void setPrimaryItem(android.view.ViewGroup,int,java.lang.Object) -> b
+    java.lang.Object instantiateItem(android.view.ViewGroup,int) -> a
+ru.truba.touchgallery.GalleryWidget.GalleryViewPager -> ru.truba.touchgallery.GalleryWidget.GalleryViewPager:
+    android.graphics.PointF last -> b
+    ru.truba.touchgallery.TouchView.TouchImageView mCurrentView -> a
+    float startX -> c
+    float startY -> d
+    float[] handleMotionEvent(android.view.MotionEvent) -> a
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    boolean onInterceptTouchEvent(android.view.MotionEvent) -> onInterceptTouchEvent
+    boolean isAClick(float,float,float,float) -> a
+ru.truba.touchgallery.TouchView.EclairMotionEvent -> ru.truba.touchgallery.a.a:
+    float getX(int) -> a
+    float getY(int) -> b
+ru.truba.touchgallery.TouchView.FileTouchImageView -> ru.truba.touchgallery.a.b:
+    void setUrl(java.lang.String) -> a
+ru.truba.touchgallery.TouchView.FileTouchImageView$ImageLoadTask -> ru.truba.touchgallery.a.c:
+    android.graphics.Bitmap doInBackground(java.lang.String[]) -> a
+    void access$0(ru.truba.touchgallery.TouchView.FileTouchImageView$ImageLoadTask,java.lang.Object[]) -> a
+ru.truba.touchgallery.TouchView.FileTouchImageView$ImageLoadTask$1 -> ru.truba.touchgallery.a.d:
+    ru.truba.touchgallery.TouchView.FileTouchImageView$ImageLoadTask this$1 -> a
+    void onProgress$483f04ab(float) -> a
+ru.truba.touchgallery.TouchView.InputStreamWrapper -> ru.truba.touchgallery.a.e:
+    long mContentLen -> a
+    long mBytesLoaded -> b
+    ru.truba.touchgallery.TouchView.InputStreamWrapper$InputStreamProgressListener mProgressListener -> c
+    int read(byte[],int,int) -> read
+    void setProgressListener(ru.truba.touchgallery.TouchView.InputStreamWrapper$InputStreamProgressListener) -> a
+ru.truba.touchgallery.TouchView.InputStreamWrapper$InputStreamProgressListener -> ru.truba.touchgallery.a.f:
+    void onProgress$483f04ab(float) -> a
+ru.truba.touchgallery.TouchView.TouchImageView -> ru.truba.touchgallery.a.g:
+    android.graphics.Matrix matrix -> a
+    android.graphics.Matrix savedMatrix -> b
+    int mode -> c
+    float redundantXSpace -> d
+    float redundantYSpace -> e
+    float right -> f
+    float bottom -> g
+    float origWidth -> h
+    float origHeight -> i
+    float bmWidth -> C
+    float bmHeight -> D
+    float width -> j
+    float height -> k
+    android.graphics.PointF last -> l
+    android.graphics.PointF mid -> m
+    android.graphics.PointF start -> n
+    float[] m -> o
+    float matrixX -> p
+    float matrixY -> q
+    float saveScale -> r
+    float minScale -> s
+    float maxScale -> t
+    float oldDist -> u
+    android.graphics.PointF lastDelta -> v
+    float velocity -> w
+    long lastPressTime -> x
+    long lastDragTime -> y
+    boolean allowInert -> z
+    android.content.Context mContext -> E
+    java.util.Timer mClickTimer -> F
+    android.view.View$OnClickListener mOnClickListener -> G
+    java.lang.Object mScaleDetector -> H
+    android.os.Handler mTimerHandler -> I
+    boolean onLeftSide -> A
+    boolean onRightSide -> B
+    void resetScale() -> a
+    boolean pagerCanScroll() -> b
+    void onDraw(android.graphics.Canvas) -> onDraw
+    void checkAndSetTranslate(float,float) -> a
+    void checkSiding() -> c
+    void calcPadding() -> d
+    void fillMatrixXY() -> e
+    void scaleMatrixToBounds() -> f
+    void setImageBitmap(android.graphics.Bitmap) -> setImageBitmap
+    void onMeasure(int,int) -> onMeasure
+    void setOnClickListener(android.view.View$OnClickListener) -> setOnClickListener
+    android.os.Handler access$0(ru.truba.touchgallery.TouchView.TouchImageView) -> a
+    android.view.View$OnClickListener access$1(ru.truba.touchgallery.TouchView.TouchImageView) -> b
+    java.lang.Object access$2(ru.truba.touchgallery.TouchView.TouchImageView) -> c
+    void access$3(ru.truba.touchgallery.TouchView.TouchImageView) -> d
+    float access$4(ru.truba.touchgallery.TouchView.TouchImageView,ru.truba.touchgallery.TouchView.WrapMotionEvent) -> a
+    void access$5(ru.truba.touchgallery.TouchView.TouchImageView,android.graphics.PointF,ru.truba.touchgallery.TouchView.WrapMotionEvent) -> a
+    java.util.Timer access$6(ru.truba.touchgallery.TouchView.TouchImageView) -> e
+    void access$7(ru.truba.touchgallery.TouchView.TouchImageView) -> f
+    void access$8(ru.truba.touchgallery.TouchView.TouchImageView,float,float) -> a
+    void access$9(ru.truba.touchgallery.TouchView.TouchImageView,java.util.Timer) -> a
+    void access$10(ru.truba.touchgallery.TouchView.TouchImageView) -> g
+    double access$11(ru.truba.touchgallery.TouchView.TouchImageView,android.graphics.PointF,android.graphics.PointF) -> a
+    android.graphics.PointF access$12(ru.truba.touchgallery.TouchView.TouchImageView,ru.truba.touchgallery.TouchView.WrapMotionEvent) -> b
+    void access$13(ru.truba.touchgallery.TouchView.TouchImageView) -> h
+ru.truba.touchgallery.TouchView.TouchImageView$1 -> ru.truba.touchgallery.a.h:
+    ru.truba.touchgallery.TouchView.TouchImageView this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+ru.truba.touchgallery.TouchView.TouchImageView$ScaleListener -> ru.truba.touchgallery.a.i:
+    ru.truba.touchgallery.TouchView.TouchImageView this$0 -> a
+    boolean onScaleBegin(android.view.ScaleGestureDetector) -> onScaleBegin
+    boolean onScale(android.view.ScaleGestureDetector) -> onScale
+ru.truba.touchgallery.TouchView.TouchImageView$Task -> ru.truba.touchgallery.a.j:
+    ru.truba.touchgallery.TouchView.TouchImageView this$0 -> a
+    void run() -> run
+ru.truba.touchgallery.TouchView.TouchImageView$TimeHandler -> ru.truba.touchgallery.a.k:
+    java.lang.ref.WeakReference mService -> a
+    void handleMessage(android.os.Message) -> handleMessage
+ru.truba.touchgallery.TouchView.UrlTouchImageView -> ru.truba.touchgallery.a.l:
+    android.widget.ProgressBar mProgressBar -> a
+    ru.truba.touchgallery.TouchView.TouchImageView mImageView -> b
+    android.content.Context mContext -> c
+    ru.truba.touchgallery.TouchView.TouchImageView getImageView() -> a
+    void setUrl(java.lang.String) -> a
+ru.truba.touchgallery.TouchView.UrlTouchImageView$ImageLoadTask -> ru.truba.touchgallery.a.m:
+    ru.truba.touchgallery.TouchView.UrlTouchImageView this$0 -> a
+    android.graphics.Bitmap doInBackground(java.lang.String[]) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+    void onProgressUpdate(java.lang.Object[]) -> onProgressUpdate
+    void access$3(ru.truba.touchgallery.TouchView.UrlTouchImageView$ImageLoadTask,java.lang.Object[]) -> a
+ru.truba.touchgallery.TouchView.UrlTouchImageView$ImageLoadTask$1 -> ru.truba.touchgallery.a.n:
+    ru.truba.touchgallery.TouchView.UrlTouchImageView$ImageLoadTask this$1 -> a
+    void onProgress$483f04ab(float) -> a
+ru.truba.touchgallery.TouchView.WrapMotionEvent -> ru.truba.touchgallery.a.o:
+    android.view.MotionEvent event -> a
+    ru.truba.touchgallery.TouchView.WrapMotionEvent wrap(android.view.MotionEvent) -> a
+    int getAction() -> a
+    float getX() -> b
+    float getX(int) -> a
+    float getY() -> c
+    float getY(int) -> b
+    void verifyPointerIndex(int) -> c

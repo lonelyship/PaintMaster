@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="index_title">Paint Master</string>
+    <string name="race_mode">Challenge</string>
+    <string name="practice_mode">Practice</string>
+    <string name="free_mode">Card</string>
+    <string name="pick_mode">Pick</string>
+    <string name="camera_mode">Photo</string>
+    <string name="gallery_mode">Gallery</string>
+    <string name="title_activity_index">Paint Master</string>
+    <string name="title_activity_practice">PracticeActivity</string>
+    <string name="title_activity_free">FreeActivity</string>
+    <string name="title_activity_pick">PickActivity</string>
+    <string name="title_activity_gallery_file">Gallery</string>
+    <string name="title_activity_test_tab">TestTabActivity</string>
+
+    
+    
+    
+    <string name="share">Share</string>
+    <string name="save">Save</string>
+    <string name="next">Next</string>
+    <string name="normal">General</string>
+    <string name="emboss">Emboss</string>
+    <string name="shadow">Shadow</string>
+    <string name="blur">Blur</string>
+    <string name="srcatop">SrcAtop</string>
+    <string name="clear">Clear</string>
+    <string name="transparency">Transparency</string>
+    <string name="photo">Photo</string>
+    <string name="rotate">Rotate</string>
+    <string name="hint">Open Tips</string>
+    <string name="closeHint">Close Tips</string>
+    <string name="selectPicture">Select Picture</string>
+    <string name="eraser">Eraser</string>
+    <string name="colorPicker">Color Picker</string>
+    <string name="brush">Brush</string>
+    <string name="tipSize">TipSize</string>
+    
+    
+    
+    <string name="clearPaths">Clear Paths?</string>
+    <string name="alreadySaved">  Saved!!</string>
+    <string name="setTransparency">Set Transparency</string>
+    <string name="back">Press back again to return menu</string>
+    <string name="setTipSize">Set tip size(1~50)</string>
+    <string name="currentTipSize">Current Tip Size:</string>
+    
+    <string name="deletePictrue">Delete this picture?</string>
+     <string name="exit">Exit?</string>
+     
+     <string name="about">Help</string>
+     <string name="aboutMessage">
+         \n 
+         
+   
+         
+         
+         
+         
+         Five modes:\n \n 
+
+* Challenge Mode: Complete your painting in 99 seconds !\n \n 
+
+* Practice Mode: You have a lot of time to make your paintings.\n  \n 
+
+* Card mode:You can send greeting cards to your friends !\n \n 
+
+* Pick Mode: You can choose your photos from your device and depict it !\n \n 
+
+* Photo mode: You can use camera and take a picture.Then you can depict it !\n \n 
+
+\n 
+Special Features:\n \n 
+
+*You can save your paintings in your device.\n \n 
+
+*After completing the painting you can immediately share it on Twitter, Line, Facebook and other community platform.\n \n 
+
+*You can set the transparency of the picture and depict it.It would help you become an expert painting.\n \n 
+
+*You can watch your paintings you make before in the gallery.\n \n 
+
+*Five kinds of brush effects for you to choose: General,Emboss,Shadow,Blur,SrcAtop.\n \n 
+
+*11 kinds of card styles for you to choose:Christmas cards, Greeting cards, Birthday cards,and etc.\n \n 
+\n 
+
+
+Current version: V1.0 (no ads Beta version) \n 
+We will add more pictures species, card style, brush effects and so on in the future.  \n 
+
+
+          \n 
+   *Declaration: \n  
+     All pictures in this app are from  www.pixabay.com.Just for personal use only!  \n \n
+   If you have any questions,please contact the developer:  paintmaster2015@gmail.com
+</string>
+    
+
+    
+    
+    
+</resources>

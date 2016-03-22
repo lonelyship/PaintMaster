@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aiiistudent.paintmaster"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/palette_icon"
+        android:label="@string/index_title"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.aiiistudent.paintmaster.MainActivity"
+            android:label="@string/index_title"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.aiiistudent.paintmaster.IndexActivity"
+            android:label="@string/title_activity_index"
+            android:screenOrientation="landscape"
+             android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+           
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aiiistudent.paintmaster.PracticeActivity"
+            android:label="@string/title_activity_practice"
+            android:parentActivityName="com.aiiistudent.paintmaster.IndexActivity"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fingerpaint.IndexActivity" />
+        </activity>
+        <activity
+            android:name="com.aiiistudent.paintmaster.FreeActivity"
+            android:label="@string/title_activity_free"
+            android:parentActivityName="com.aiiistudent.paintmaster.IndexActivity"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fingerpaint.IndexActivity" />
+        </activity>
+        <activity
+            android:name="com.aiiistudent.paintmaster.PickActivity"
+            android:label="@string/title_activity_pick"
+            android:parentActivityName="com.aiiistudent.paintmaster.IndexActivity"
+            android:screenOrientation="landscape"
+             >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fingerpaint.IndexActivity" />
+        </activity>
+        <activity
+            android:name="com.aiiistudent.paintmaster.GalleryFileActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_gallery_file"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.aiiistudent.paintmaster.CameraActivity"
+            android:label="@string/title_activity_test_tab"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>

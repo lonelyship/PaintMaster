@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="index_title">繪畫大師</string>
+    <string name="race_mode">挑戰模式</string>
+    <string name="practice_mode">練習模式</string>
+    <string name="free_mode">賀卡模式</string>
+    <string name="pick_mode">自選模式</string>
+    <string name="camera_mode">寫生模式</string>
+    <string name="gallery_mode">我的畫廊</string>
+    <string name="title_activity_index">繪畫大師</string>
+    <string name="title_activity_practice">PracticeActivity</string>
+    <string name="title_activity_free">FreeActivity</string>
+    <string name="title_activity_pick">PickActivity</string>
+    <string name="title_activity_gallery_file">Gallery</string>
+    <string name="title_activity_test_tab">TestTabActivity</string>
+
+    
+    
+    
+    <string name="share">分享</string>
+    <string name="save">存檔</string>
+    <string name="next">下一關</string>
+    <string name="normal">一般</string>
+    <string name="emboss">立體</string>
+    <string name="shadow">陰影</string>
+    <string name="blur">模糊</string>
+    <string name="srcatop">混色</string>
+    <string name="clear">清空</string>
+    <string name="transparency">透明度</string>
+    <string name="photo">照相</string>
+    <string name="rotate">旋轉圖片</string>
+    <string name="hint">開啟提示</string>
+    <string name="closeHint">關閉提示</string>
+    <string name="selectPicture">選擇圖片</string>
+    <string name="eraser">橡皮擦</string>
+    <string name="colorPicker">調色盤</string>
+    <string name="brush">筆刷</string>
+    <string name="tipSize">筆尖大小</string>
+    
+    
+    
+    
+    
+    
+    
+    <string name="clearPaths">確定清空筆跡？</string>
+    <string name="alreadySaved">  存檔成功!!</string>
+    <string name="setTransparency">設定圖片透明度</string>
+    <string name="back">再按一次返回鍵回主選單</string>
+    <string name="setTipSize">設定筆尖大小(1~50)</string>
+    <string name="currentTipSize">目前筆尖大小:</string>
+    
+    
+    <string name="deletePictrue">確定刪除這幅畫？</string>
+    <string name="exit">確定要離開嗎？</string>
+    
+    <string name="about">說明</string>
+    <string name="aboutMessage">
+\n 
+***常見問題:***
+\n \n 
+
+Q:存檔後畫作是否會保存在裝置中? \n 
+A:是(圖片將會儲存在名為FingerPaint的資料夾中)\n \n 
+
+Q:為何按分享後還是分享之前的圖?\n 
+A:分享前請先儲存您的畫作,之後就會更新分享的圖了!\n \n 
+
+Q:為何我按混色功能看不出效果?\n 
+A:混色功能須混合不同顏色才能看出效果\n \n \n 
+
+        
+        
+        
+ ****功能介紹****   \n \n     
+        
+五大模式: \n  \n  
+
+*挑戰模式:\n 在有限時間內完成畫作,並和朋友們一起來競賽! \n \n
+
+*練習模式:\n 您可以擁有很多時間的豐富您的畵作 \n \n
+
+*賀卡模式:\n 有多少時間沒有動手寫卡片了呢?您可以親手寫一張電子卡片送給您的朋友! \n \n
+
+*自選模式:\n 您可以選擇您裝置的內的圖來作畫   \n \n
+
+*寫生模式:\n 您可以開啟您的相機拍照  並將眼前美景描繪下來  \n \n
+
+\n \n
+
+特殊功能: \n \n
+
+內建存檔功能:\n 您可以儲存您的畫作於您的裝置上 \n \n
+
+內建分享功能:\n 完成畫作後您可以馬上分享到Line,Facebook,Twitter等社群平台 \n \n
+
+內建提示功能:\n 您可以設置圖片的透明度加以描繪 輕鬆幫您成為繪畫專家 \n \n
+
+內建畫廊功能:\n 您可以觀賞您之前儲存的畫作 \n \n
+
+五種筆刷特效供您選擇:包括(一般,立體,陰影,模糊,混色) \n \n
+
+11種卡片樣式任您挑選:包含(聖誕卡,賀年卡,生日卡等等) \n \n
+
+\n\n
+
+目前版本:V1.0 (無廣告測試版) \n
+
+未來將陸續新增圖片種類,卡片樣式,筆刷特效等\n
+
+ 
+        
+        
+        
+  \n 
+    聲明: \n      
+  *本應用程式之圖片由www.pixabay.com授權使用,
+    
+    若有任何問題請連繫開發者:paintmaster2015@gmail.com 
+    
+   \n 
+    </string>
+    
+    
+    
+    
+</resources>

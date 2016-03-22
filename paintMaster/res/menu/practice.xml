@@ -1,0 +1,137 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.aiiistudent.paintmaster.PracticeActivity" >
+
+
+    <item
+            android:id="@+id/HINT_MENU_ID"
+            android:showAsAction="never"
+            android:title="@string/hint"/>
+    
+    
+    <group android:id="@+id/share_menu_group" >
+        <item
+            android:id="@+id/menu_item_share_action_provider_action_bar"
+            android:actionProviderClass="android.widget.ShareActionProvider"
+            android:orderInCategory="9"
+            android:showAsAction="always"
+            android:title="@string/share"/>
+      
+        <item
+            android:id="@+id/SAVE_MENU_ID"
+            android:icon="@drawable/save"
+            android:orderInCategory="8"
+            android:showAsAction="always"
+            android:title="@string/save"/>
+        
+             <item
+            android:id="@+id/NEXT_MENU_ID"
+            android:icon="@drawable/next"
+            android:orderInCategory="10"
+            android:showAsAction="always"
+            android:visible="false"
+            android:title="@string/next"/>
+        
+    </group>
+    <group android:id="@+id/main_menu_group" >
+        <item
+            android:id="@+id/size"
+            android:icon="@drawable/size"
+            android:orderInCategory="3"
+            android:showAsAction="always"
+            android:title="@string/tipSize">
+          
+        </item>
+        <item
+            android:id="@+id/COLOR_MENU_ID"
+            android:icon="@drawable/palette"
+            android:orderInCategory="4"
+            android:showAsAction="always"
+            android:title="@string/colorPicker"/>
+        <item
+            android:id="@+id/brush"
+            android:icon="@drawable/brush"
+            android:orderInCategory="5"
+            android:showAsAction="always"
+            android:title="@string/brush">
+            <menu>
+                <item
+                    android:id="@+id/NORMAL_MENU_ID"
+                    android:showAsAction="never"
+                    android:title="@string/normal"/>
+     <item
+                    android:id="@+id/EMBOSS_MENU_ID"
+                    android:showAsAction="never"
+                    android:title="@string/emboss"/>
+                <item
+                    android:id="@+id/SHADOWLAYER_MENU_ID"
+                    android:showAsAction="never"
+                    android:title="@string/shadow"/>
+                <item
+                    android:id="@+id/BLUR_MENU_ID"
+                    android:showAsAction="never"
+                    android:title="@string/blur"/>
+                <item
+                    android:id="@+id/SRCATOP_MENU_ID"
+                    android:showAsAction="never"
+                    android:title="@string/srcatop"/>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/ERASE_MENU_ID"
+            android:icon="@drawable/eraser"
+            android:orderInCategory="6"
+            android:showAsAction="always"
+            android:title="@string/eraser"/>
+        <item
+            android:id="@+id/CLEAR_MENU_ID"
+            android:icon="@drawable/clear"
+            android:orderInCategory="7"
+            android:showAsAction="always"
+            android:title="@string/clear"/>
+        
+        
+        
+       <item
+            android:id="@+id/BG_MENU_ID"
+            android:icon="@drawable/bg0_icon"
+            android:orderInCategory="0"
+            android:showAsAction="always"
+            android:title="背景"
+            android:visible="false">
+            <menu>
+                
+                  <item
+                    android:id="@+id/Bg0"
+                    android:showAsAction="never"
+                    android:icon="@drawable/bg0_icon"
+                    android:title="無背景"/>
+                
+                <item
+                    android:id="@+id/Bg1"
+                    android:showAsAction="never"
+                    android:icon="@drawable/bg1_icon"
+                    android:title="背景1"/>
+                <item
+                    android:id="@+id/Bg2"
+                    android:showAsAction="never"
+                    android:icon="@drawable/bg2_icon"
+                    android:title="背景2"/>
+                <item
+                    android:id="@+id/Bg3"
+                    android:icon="@drawable/bg3_icon"
+                    android:showAsAction="never"
+                    android:title="背景3"/>
+                <item
+                    android:id="@+id/Bg4"
+                    android:icon="@drawable/bg4_icon"
+                    android:showAsAction="never"
+                    android:title="背景4"/>
+
+                
+            </menu>
+        </item>
+        
+    </group>
+
+</menu>

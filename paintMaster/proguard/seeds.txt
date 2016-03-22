@@ -1,0 +1,36 @@
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+at.technikum.mti.fancycoverflow.FancyCoverFlow
+at.technikum.mti.fancycoverflow.FancyCoverFlow: FancyCoverFlow(android.content.Context)
+at.technikum.mti.fancycoverflow.FancyCoverFlow: FancyCoverFlow(android.content.Context,android.util.AttributeSet)
+at.technikum.mti.fancycoverflow.FancyCoverFlow: FancyCoverFlow(android.content.Context,android.util.AttributeSet,int)
+com.aiiistudent.paintmaster.CameraActivity
+com.aiiistudent.paintmaster.CameraActivity: CameraActivity()
+com.aiiistudent.paintmaster.FreeActivity
+com.aiiistudent.paintmaster.FreeActivity: FreeActivity()
+com.aiiistudent.paintmaster.GalleryFileActivity
+com.aiiistudent.paintmaster.GalleryFileActivity: GalleryFileActivity()
+com.aiiistudent.paintmaster.GraphicsActivity: GraphicsActivity()
+com.aiiistudent.paintmaster.IndexActivity
+com.aiiistudent.paintmaster.IndexActivity: IndexActivity()
+com.aiiistudent.paintmaster.MainActivity
+com.aiiistudent.paintmaster.MainActivity: MainActivity()
+com.aiiistudent.paintmaster.PickActivity
+com.aiiistudent.paintmaster.PickActivity: PickActivity()
+com.aiiistudent.paintmaster.PracticeActivity
+com.aiiistudent.paintmaster.PracticeActivity: PracticeActivity()
+net.margaritov.preference.colorpicker.ColorPickerPanelView
+net.margaritov.preference.colorpicker.ColorPickerPanelView: ColorPickerPanelView(android.content.Context)
+net.margaritov.preference.colorpicker.ColorPickerPanelView: ColorPickerPanelView(android.content.Context,android.util.AttributeSet)
+net.margaritov.preference.colorpicker.ColorPickerPanelView: ColorPickerPanelView(android.content.Context,android.util.AttributeSet,int)
+net.margaritov.preference.colorpicker.ColorPickerPreference
+net.margaritov.preference.colorpicker.ColorPickerPreference: ColorPickerPreference(android.content.Context)
+net.margaritov.preference.colorpicker.ColorPickerPreference: ColorPickerPreference(android.content.Context,android.util.AttributeSet)
+net.margaritov.preference.colorpicker.ColorPickerPreference: ColorPickerPreference(android.content.Context,android.util.AttributeSet,int)
+net.margaritov.preference.colorpicker.ColorPickerView
+net.margaritov.preference.colorpicker.ColorPickerView: ColorPickerView(android.content.Context)
+net.margaritov.preference.colorpicker.ColorPickerView: ColorPickerView(android.content.Context,android.util.AttributeSet)
+net.margaritov.preference.colorpicker.ColorPickerView: ColorPickerView(android.content.Context,android.util.AttributeSet,int)
+ru.truba.touchgallery.GalleryWidget.GalleryViewPager
+ru.truba.touchgallery.GalleryWidget.GalleryViewPager: GalleryViewPager(android.content.Context)
+ru.truba.touchgallery.GalleryWidget.GalleryViewPager: GalleryViewPager(android.content.Context,android.util.AttributeSet)
